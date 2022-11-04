@@ -1,0 +1,20 @@
+.btns-guessing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.btns-guessing button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: blueviolet;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btns-guessing button:disabled {
+  opacity: 0.5;
+}
